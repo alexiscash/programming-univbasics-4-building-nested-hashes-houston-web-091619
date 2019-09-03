@@ -27,12 +27,12 @@ def monopoly_with_fourth_tier
   # complexity.
   hash = monopoly_with_third_tier
   hash[:railroads][:names].each do |elem|
-    elem[:mortgage_value] = '$5'
+    puts elem
   end
   hash[:railroads][:names]
 end
 
-puts monopoly_with_fourth_tier
+monopoly_with_fourth_tier
 
 
 
