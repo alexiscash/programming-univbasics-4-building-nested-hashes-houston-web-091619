@@ -32,7 +32,7 @@ def monopoly_with_fourth_tier
   hash[:railroads][:names]
 end
 
-monopoly_with_fourth_tier
+puts monopoly_with_fourth_tier
 
 
 
